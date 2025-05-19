@@ -1,0 +1,23 @@
+.project-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.project-link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-link-btn ion-icon[name="logo-github"],
+.project-link-btn ion-icon[name="globe-outline"] {
+  color: #e5e5e5;
+  transition: color 0.2s;
+}
+.project-link-btn ion-icon[name="logo-github"]:hover,
+.project-link-btn ion-icon[name="globe-outline"]:hover {
+  color: #fff;
+}
